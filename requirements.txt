@@ -1,4 +1,5 @@
 streamlit
+st_login_form
 pylance 
 langchain 
 langchain_google_genai
