@@ -8,5 +8,4 @@ beautifulsoup4
 lxml 
 html5lib
 python-dotenv
-chromium
-chromium-driver
+webdriver-manager
