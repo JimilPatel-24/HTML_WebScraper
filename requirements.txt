@@ -1,0 +1,9 @@
+streamlit
+pylance 
+langchain 
+langchain_google_genai
+selenium
+beautifulsoup4
+lxml 
+html5lib
+python-dotenv
