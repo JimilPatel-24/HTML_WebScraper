@@ -50,5 +50,7 @@ This repository contains my progress in learning the following tools:
 
   After completing this project, I have gained a high-accuracy grasp of this specific tech stack. Navigating the complexities of Selenium automation and AI orchestration has significantly sharpened my technical confidence.
 
-    
-    
+
+
+
+Made with ❤️ by Jimil
