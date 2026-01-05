@@ -52,7 +52,11 @@ if st.session_state.get("authenticated"):
                     else:
                         st.write(result)
                     data = (client.table("scrape_history").insert({"username":username,"url":url,"instruction":parse_desc,"result":result}).execute())
-    
+        st.markdown("---")
+        st.markdown(
+            "<div style='text-align: right;'>Made with ❤️ by Jimil</div>", 
+            unsafe_allow_html=True
+        )
     #history tab 
     with tab2:
         st.header(f"History for {username}")
@@ -67,10 +71,10 @@ if st.session_state.get("authenticated"):
                     st.code(i["result"],language="markdown")
         else:
             st.info("You Haven't Scraped Anything Yet :( )")
-    st.markdown("---")
-    st.markdown(
-        "<div style='text-align: right;'>Made with ❤️ by Jimil</div>", 
-        unsafe_allow_html=True
-    )
+        st.markdown("---")
+        st.markdown(
+            "<div style='text-align: right;'>Made with ❤️ by Jimil</div>", 
+            unsafe_allow_html=True
+        )
 else:
     st.info("Please log in to use the scraper.")
