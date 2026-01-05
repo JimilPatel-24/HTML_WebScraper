@@ -67,5 +67,10 @@ if st.session_state.get("authenticated"):
                     st.code(i["result"],language="markdown")
         else:
             st.info("You Haven't Scraped Anything Yet :( )")
+    st.markdown("---")
+    st.markdown(
+        "<div style='text-align: right;'>Made with ❤️ by Jimil</div>", 
+        unsafe_allow_html=True
+    )
 else:
     st.info("Please log in to use the scraper.")
