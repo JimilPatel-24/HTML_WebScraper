@@ -3,7 +3,7 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 TOKEN = os.getenv("GEMINI_API_TOKEN")
-model = ChatGoogleGenerativeAI(model="gemma-3-12b", api_key=TOKEN) 
+model = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", api_key=TOKEN) 
 
 
 
