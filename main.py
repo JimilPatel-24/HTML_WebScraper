@@ -71,8 +71,4 @@ if st.session_state.get("authenticated"):
 else:
     st.info("Please log in to use the scraper.")
     
-st.markdown("---")
-st.markdown(
-    "<div style='text-align: right;'>Made with ❤️ by Jimil</div>", 
-    unsafe_allow_html=True
-)
+
