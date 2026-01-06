@@ -51,6 +51,7 @@ if st.session_state.get("authenticated"):
                         st.write("Data Can't Be Processed , Please Check DOM Content For More Info.")
                     else:
                         st.write(result)
+                        print(result)
                     data = (client.table("scrape_history").insert({"username":username,"url":url,"instruction":parse_desc,"result":result}).execute())
     #history tab 
     with tab2:
